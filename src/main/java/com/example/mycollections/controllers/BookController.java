@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/books")
+@ResponseBody
 public class BookController {
 
     private final List<Book> books = new ArrayList<>() {{
