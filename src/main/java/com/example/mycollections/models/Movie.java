@@ -5,6 +5,8 @@ public class Movie {
     private String director;
     private String year;
 
+    public Movie(){}
+
     public Movie(String title, String director, String year) {
        this.title = title;
        this.director = director;

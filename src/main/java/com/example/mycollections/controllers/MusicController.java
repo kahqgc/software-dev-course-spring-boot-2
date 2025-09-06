@@ -18,12 +18,12 @@ public class MusicController {
     }};
 
     @GetMapping("/json")
-    public List<Music> getStudents() {
+    public List<Music> getMusicJson() {
         return music;
     }
 
     @GetMapping("/html")
-    public String getMusic() {
+    public String getMusicHtml() {
         String html = """
  <html>
     <body>

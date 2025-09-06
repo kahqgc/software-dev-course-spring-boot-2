@@ -19,12 +19,12 @@ public class MovieController {
     }};
 
     @GetMapping("/json")
-    public List<Movie> getStudents() {
+    public List<Movie> getMovieJson() {
         return movie;
     }
 
     @GetMapping("/html")
-    public String getMovie() {
+    public String getMovieHtml() {
         String html = """
  <html>
     <body>
